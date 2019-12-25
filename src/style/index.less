@@ -1,0 +1,44 @@
+@import "./theme.less";
+
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+#root {
+	height: 100%;
+	width: 100%;
+	min-height: 766px;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+	height: 8px;
+}
+
+/*滚动条轨道*/
+::-webkit-scrollbar-track {
+	background-color: transparent;
+	border-radius: 3px;
+}
+
+/*滚动条滑块*/
+::-webkit-scrollbar-thumb {
+	// background-color: $gray-6;
+	background-color: #dfdfdf1a;
+	border-radius: 5px;
+}
+
+/*滚动条轨道按钮*/
+::-webkit-scrollbar-button:vertical:increment,
+::-webkit-scrollbar-button:vertical:decrement,
+::-webkit-scrollbar-button:horizontal:decrement,
+::-webkit-scrollbar-button:horizontal:incremen {
+	width: 0px;
+	height: 0px;
+}
