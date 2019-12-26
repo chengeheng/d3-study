@@ -52,21 +52,18 @@ export default props => {
 		// 处理原始选集
 		const trSelection = d3.selectAll("tr");
 		const headerElement = trSelection.nodes()[0];
-		console.log(headerElement);
 
 		d3.select(headerElement).attr("class", styles["table-row-header"]);
 
 		const rows = trSelection.nodes().slice(1, 4);
-		console.log(rows);
 		rows.forEach((item, index) => {
 			d3.select(item).attr("class", (d, i) => {
-				console.log(d);
 				return index % 2 === 1
 					? styles["table-row-odd"]
 					: styles["table-row-even"];
 			});
 		});
-	}, []);
+	}, [dataset, title]);
 
 	return <div className={styles.main} id="demo"></div>;
 };
