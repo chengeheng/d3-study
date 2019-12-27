@@ -3,6 +3,7 @@ import MultipleSelection from "./multiple-selection";
 import RowSelection from "./row-selection";
 import ArrayAsData from "./array-as-data";
 import ObjectAsData from "./object-as-data";
+import FunctionAsData from "./function-as-data";
 
 export default [
 	{
@@ -29,5 +30,10 @@ export default [
 		path: "/demos/object-as-data",
 		title: "object-as-data",
 		component: ObjectAsData
+	},
+	{
+		path: "/demos/function-as-data",
+		title: "function-as-data",
+		component: FunctionAsData
 	}
 ];
