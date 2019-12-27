@@ -4,6 +4,7 @@ import RowSelection from "./row-selection";
 import ArrayAsData from "./array-as-data";
 import ObjectAsData from "./object-as-data";
 import FunctionAsData from "./function-as-data";
+import DataFilter from "./data-filter";
 
 export default [
 	{
@@ -35,5 +36,10 @@ export default [
 		path: "/demos/function-as-data",
 		title: "function-as-data",
 		component: FunctionAsData
+	},
+	{
+		path: "/demos/data-filter",
+		title: "data-filter",
+		component: DataFilter
 	}
 ];
