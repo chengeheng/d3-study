@@ -5,6 +5,9 @@ import ArrayAsData from "./array-as-data";
 import ObjectAsData from "./object-as-data";
 import FunctionAsData from "./function-as-data";
 import DataFilter from "./data-filter";
+import DataSort from "./data-sort";
+import ContinuousScales from "./continuous-scales";
+import TimeScale from "./time-scale";
 
 export default [
 	{
@@ -41,5 +44,20 @@ export default [
 		path: "/demos/data-filter",
 		title: "data-filter",
 		component: DataFilter
+	},
+	{
+		path: "/demos/data-sort",
+		title: "data-sort",
+		component: DataSort
+	},
+	{
+		path: "/demos/continuous-scales",
+		title: "continuous-scales",
+		component: ContinuousScales
+	},
+	{
+		path: "/demos/time-scale",
+		title: "time-scale",
+		component: TimeScale
 	}
 ];
