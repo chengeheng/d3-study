@@ -8,6 +8,10 @@ import DataFilter from "./data-filter";
 import DataSort from "./data-sort";
 import ContinuousScales from "./continuous-scales";
 import TimeScale from "./time-scale";
+import OrdinalScale from "./ordinal-scale";
+import StringInterpolation from "./string-interpolation";
+import ColorInterpolation from "./color-interpolation";
+import CompoundInterpolation from "./compound-interpolation";
 
 export default [
 	{
@@ -59,5 +63,25 @@ export default [
 		path: "/demos/time-scale",
 		title: "time-scale",
 		component: TimeScale
+	},
+	{
+		path: "/demos/ordinal-scale",
+		title: "ordinal-scale",
+		component: OrdinalScale
+	},
+	{
+		path: "/demos/string-interpolation",
+		title: "string-interpolation",
+		component: StringInterpolation
+	},
+	{
+		path: "/demos/color-interpolation",
+		title: "color-interpolation",
+		component: ColorInterpolation
+	},
+	{
+		path: "/demos/compound-interpolation",
+		title: "compound-interpolation",
+		component: CompoundInterpolation
 	}
 ];
