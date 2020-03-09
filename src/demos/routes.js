@@ -16,6 +16,11 @@ import BasicAxis from "./basic-axis";
 import Ticks from "./ticks";
 import GridLine from "./grid-line";
 import Rescaling from "./rescaling";
+import SingleElementTransition from "./single-element-transition";
+import MultiElementTransition from "./multi-element-transition";
+import Easing from "./easing";
+import Tweening from "./tweening";
+import Chaining from "./chaining";
 
 export default [
 	{
@@ -107,5 +112,30 @@ export default [
 		path: "/d3-study/rescaling",
 		title: "rescaling",
 		component: Rescaling
+	},
+	{
+		path: "/d3-study/single-element-transition",
+		title: "single-element-transition",
+		component: SingleElementTransition
+	},
+	{
+		path: "/d3-study/multi-element-transition",
+		title: "multi-element-transition",
+		component: MultiElementTransition
+	},
+	{
+		path: "/d3-study/easing",
+		title: "easing",
+		component: Easing
+	},
+	{
+		path: "/d3-study/tweening",
+		title: "tweening",
+		component: Tweening
+	},
+	{
+		path: "/d3-study/chaining",
+		title: "chaining",
+		component: Chaining
 	}
 ];
