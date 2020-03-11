@@ -21,6 +21,7 @@ import MultiElementTransition from "./multi-element-transition";
 import Easing from "./easing";
 import Tweening from "./tweening";
 import Chaining from "./chaining";
+import Filtering from "./filtering";
 
 export default [
 	{
@@ -137,5 +138,10 @@ export default [
 		path: "/d3-study/chaining",
 		title: "chaining",
 		component: Chaining
+	},
+	{
+		path: "/d3-study/filtering",
+		title: "filtering",
+		component: Filtering
 	}
 ];
