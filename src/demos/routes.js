@@ -22,6 +22,12 @@ import Easing from "./easing";
 import Tweening from "./tweening";
 import Chaining from "./chaining";
 import Filtering from "./filtering";
+import Event from "./event";
+import Timer from "./timer";
+
+import SimpleShapes from "./svg/simple-shapes";
+import Line from "./svg/line";
+import LineCurve from "./svg/line-curve";
 
 export default [
 	{
@@ -143,5 +149,30 @@ export default [
 		path: "/d3-study/filtering",
 		title: "filtering",
 		component: Filtering
+	},
+	{
+		path: "/d3-study/event",
+		title: "event",
+		component: Event
+	},
+	{
+		path: "/d3-study/timer",
+		title: "timer",
+		component: Timer
+	},
+	{
+		path: "/d3-study/simple-shapes",
+		title: "svg-simple-shapes",
+		component: SimpleShapes
+	},
+	{
+		path: "/d3-study/line",
+		title: "svg-line",
+		component: Line
+	},
+	{
+		path: "/d3-study/line-curve",
+		title: "svg-line-curve",
+		component: LineCurve
 	}
 ];
